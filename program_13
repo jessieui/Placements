@@ -1,0 +1,19 @@
+#print the statement using static method
+
+package placement;
+public class staticmethod {
+	void simpleDisplay() {
+		System.out.println("Example of Instance Method..");
+	}
+	static void staticDisplay() {
+		System.out.println("Static Method Called.");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		staticmethod obj = new staticmethod();
+		staticDisplay();
+
+	}
+
+}
