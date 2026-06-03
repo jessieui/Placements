@@ -1,0 +1,14 @@
+#concade string method
+
+package placement;
+
+public class example_01 {
+
+	public static void main(String[] args) {
+		String s="joe";
+		s.concat("Tendulkar");
+		System.out.println(s);
+
+	}
+
+}
