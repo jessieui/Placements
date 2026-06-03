@@ -1,0 +1,12 @@
+#Default constructor
+
+package placement;
+
+public class constructor {
+constructor(){
+	System.out.println("Default constructor");
+}
+	public static void main(String[] args) {
+constructor hello=new constructor();
+	}
+}
