@@ -1,0 +1,15 @@
+#print the message by creating the class
+
+package placement;
+
+public class Stringmethod7 {
+public void printMessage() {
+	System.out.println("Hello,java!");
+}
+	public static void main(String[] args) {
+		Stringmethod7 obj=new Stringmethod7();
+		obj.printMessage();
+		
+	}
+
+}
