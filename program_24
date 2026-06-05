@@ -1,0 +1,20 @@
+# print student ID student name
+
+package placement;
+
+public class example_07 {
+    String name;
+    int id;
+    example_07(String name,int id){
+    	this.name=name;
+    	this.id=id;
+    }
+    void display() {
+    	System.out.println("Student Name:"+name+" and Student Id:"+id);
+    }
+	public static void main(String[] args) {
+		example_07 myObj=new example_07("Sachin",68);
+		myObj.display();
+	}
+
+}
